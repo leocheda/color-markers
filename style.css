@@ -1,0 +1,57 @@
+/*
+ * height: 25
+ * maker: 200 
+ * cap: 60
+ * sleeve: 110
+ * red: #7a4a0e #f53e71 #a21b1b
+ * shadow: x-0 y-0 b-20 s-0 c-#530e0e
+ * green: #55680d #71f53e #116c31
+ * shadow: x-0 y-0 b-20 s-0 c-#3b7e20
+ * blue: #0a4248 #3d71f5 #2f2fa7
+ * shadow: x-0 y-0 b-20 s-0 c-#0000ff
+ * border: 10px double black75%
+*/
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background: white;
+    padding-top: 10px;
+}
+
+.marker {
+    height: 25px;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.cap {
+    height: 25px;
+    width: 60px;
+    display: inline-block;
+}
+
+.sleeve {
+    height: 25px;
+    width: 110px;
+    display: inline-block;
+    background: rgba(255,255,255,0.75);
+    border-left: 10px double rgba(0,0,0,0.75)
+}
+
+.red {
+    background: linear-gradient(#7a4a0e,#f53e71,#a21b1b);
+    box-shadow: 0 0 20px 0 #530e0e;
+}
+
+.green {
+    background: linear-gradient(#55680d,#71f53e,#116c31);
+    box-shadow: 0 0 20px 0 #3b7e20;
+}
+
+.blue {
+    background: linear-gradient(#0a4248,#3d71f5,#2f2fa7);
+    box-shadow: 0 0 20px 0 #0000ff;
+}
